@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, ol, li{
+    list-style: none;
+    
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    width: 160px;
+    align-items: center;
+    position: relative;
+    font-size: large;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    width: 80%;
+    gap: 20px;
+    align-items: center;
+
+}
+
+header{
+    position: fixed;
+    width: 100vw;
+    background-color: #A57676;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a{
+    color: white;
+    padding: 8px;
+    transition: 1s;
+}
+
+header nav a:hover{
+    background-color:#FFFDEA;
+}
+
+.grupo{
+    height: 100vh;
+    background-color: tomato;
+}
+
+#vermelho{
+    background-color: #FFFDEA;
+    background-position: 30vw ;
+    background-repeat: no-repeat;
+    background-size: large;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+#title{
+    color: rgb(255, 250, 250);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.title{
+    font-size: 32px;
+    left: 40px;
+}
+
+.h2{
+     color: rgb(255, 250, 250);
+}
+#SOBRE{
+    background-color: #FFFDEA;
+}
+
+
+#INTRODUCAO{
+    background-color:#FFFDEA;
+}
+
+#SAIBAMAIS{
+    background-color: #FFFDEA;
+}
+
+
+
+#conjunto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
