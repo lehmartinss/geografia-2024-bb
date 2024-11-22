@@ -24,28 +24,50 @@ header nav{
 
 .logo{
     display: flex;
-    width: 160px;
+    width: 280px;
     align-items: center;
     position: relative;
     font-size: large;
 }
-
+.lupa{
+    display: flex;
+    align-items:center;
+}
 .menu{
     display: flex;
     flex-direction: row;
-    font-size: 20px;
+    font-size: 28px;
     width: 80%;
     gap: 20px;
     align-items: center;
 
 }
 
+main{
+    flex-grow:1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 100%;
+}
+
+
+#img{
+    max-height: 70%;
+}
+.geografia{
+    height: 70vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
 header{
-    position: fixed;
+    */position: fixed;
     width: 100vw;
     background-color: #A57676;
     padding: 20px;
     justify-content: space-between;
+    z-index: 2;
 }
 
 header nav ul{
@@ -64,7 +86,7 @@ header nav a:hover{
 }
 
 .grupo{
-    height: 100vh;
+
     background-color: tomato;
 }
 
@@ -117,4 +139,8 @@ header nav a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+footer{
+    background-color: #FFFDEA;
 }
