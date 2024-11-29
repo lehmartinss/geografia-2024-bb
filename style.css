@@ -50,6 +50,11 @@ main{
     position: relative;
     max-width: 100%;
 }
+
+section{
+    height: 100vh;
+    width: 100%;
+}
 body{
     display: flex;
     flex-direction: column;
@@ -80,7 +85,7 @@ header nav ul{
 }
 
 header nav a{
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 8px;
     transition: 1s;
 }
@@ -106,28 +111,14 @@ header nav a:hover{
     
 }
 
-
-.telainicial{
-    width: 100%;
-    text-align: center;
-    position: relative;
-    padding: 10vh;
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-    
-
-}
-
 .quadrados{
     width: 200px;
-
 }
 
 .marrominicial{
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 30vh;
     align-items: center;
     justify-content: space-around;
 }
@@ -135,31 +126,50 @@ header nav a:hover{
 .imagens{
     background-color: #A57676;
     border-radius: 60px;
-    padding: 10px;
+    padding: 6px;
     height: 200px;
     width: 200px;
 }
 
-#title{
-    color: rgb(255, 250, 250);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+#SOBRE{
+    background-color: #FFFDEA;
+    font-size:xx-large;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    size: 100px;
+
+}
+
+.titleSOBRE{
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding: 200px;
+    text-align: center;
+    font-family: "Instrument Sans", serif;
+    size: 100px;
     
 }
 
-.title{
-    font-size: 32px;
-    left: 40px;
+.titleSOBRE span{
+    width: 100vw;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 100px;
+    background-color: #A57676;
+    color: rgb(255, 247, 247);
+    font-family: "Instrument Sans", serif;
 }
 
-.h2{
-     color: rgb(255, 250, 250);
-}
-#SOBRE{
-    background-color: #FFFDEA;
+.titleSOBRE h2{
+    padding: 12vh;
+    color: #A57676;
+    size: 1000px;
 }
 
-
-#INTRODUCAO{
+#titleINTRODUCAO span{
     background-color:#FFFDEA;
 }
 
