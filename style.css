@@ -50,6 +50,10 @@ main{
     position: relative;
     max-width: 100%;
 }
+body{
+    display: flex;
+    flex-direction: column;
+}
 
 
 #img{
@@ -62,12 +66,12 @@ main{
 }
 
 header{
-    */position: fixed;
+    position: fixed;
     width: 100vw;
     background-color: #A57676;
     padding: 20px;
     justify-content: space-between;
-    z-index: 2;
+    z-index:2;
 }
 
 header nav ul{
@@ -87,7 +91,7 @@ header nav a:hover{
 
 .grupo{
 
-    background-color: tomato;
+    background-color: rgb(230, 220, 218);
 }
 
 #vermelho{
@@ -103,8 +107,38 @@ header nav a:hover{
 }
 
 
+.telainicial{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    
 
+}
 
+.quadrados{
+    width: 200px;
+
+}
+
+.marrominicial{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imagens{
+    background-color: #A57676;
+    border-radius: 60px;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+}
 
 #title{
     color: rgb(255, 250, 250);
@@ -143,4 +177,6 @@ header nav a:hover{
 
 footer{
     background-color: #FFFDEA;
+    flex: 1;
+    padding: 7vh;
 }
