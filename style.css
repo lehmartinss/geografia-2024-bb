@@ -14,6 +14,7 @@ ul, ol, li{
 }
 
 html, body{
+    overflow-x: hidden;
     scroll-behavior: smooth;
     transition: 1s;
 }
@@ -96,7 +97,6 @@ header nav a:hover{
 }
 
 .grupo{
-
     background-color: rgb(230, 220, 218);
 }
 
@@ -130,6 +130,16 @@ header nav a:hover{
     padding: 6px;
     height: 200px;
     width: 200px;
+}
+
+#INICIO{
+    background-color: #FFFDEA;
+    font-size:xx-large;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    size: 100px;
+
 }
 
 #SOBRE{
@@ -170,40 +180,147 @@ header nav a:hover{
     size: 1000px;
 }
 
-#INTRODUCAO {
+#INTRODUCAO{
+    background-color: #FFFDEA;
+    font-size: xx-large;
+    justify-content: center;
+    padding-top: 20vh;
+    text-align: center;
+    width: 100%;
+    size: 90px;
+}
+
+.INTRODUCAO{
+    width: 100vw;
+    height: 100%;
+    font-size: larger;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
     font-family: "Instrument Sans", serif;
 }
 
-#INTRODUCAO span{
-    width: 100vw;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    padding: 200px;
+
+.titleINTRODUCAO span{
     text-align: center;
-    font-family: "Jomhuria", serif;
-    font-size: 70px;
+    background-color:#A57676;
+    color:white;
+    font-family: "Instrument Sans", serif;
+    text-align: center;
+    font-size: 100px;
  
 }
 
 .INTRODUCAOatlas{
     display: flex;
-    align-items:center;
-    height: 100vh;
+    height: 60%;
     width: 100%;
     right: 60px;
-    padding: 50px;
     justify-content: flex-end;
     background-color:#FFFDEA;
-    
-  
 }
+#info{
+    width: 50vw;
+    height: 60vh;
+    padding: 2rem;
+}
+#info p{
+    font-size: 2.7rem;
+    text-align: left;
+    color: #A57676;
+}
+#total{
+    display: flex;
+}
+
+#PRINCIPAISTEMAS{
+    background-color: #FFFDEA;
+    font-size:xx-large;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    align-items: center;
+}
+.titleTEMAS{
+    background-color: #A57676;
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFDEA;
+   font-size: 5rem;
+   padding: 3rem;
+}
+.principais{
+    width: 70%;
+    height: 23vh;
+    gap: 16px;
+    background-color: #A57676;
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+}
+
+.fotoprincipais{
+    width: 20vw;
+    height: 23vh;
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+#relevo p{
+    font-size: 1.7rem;
+    color: #FFFDEA;
+}
+#clima p{
+    font-size: 1.9rem;
+    color: #FFFDEA;
+}
+#politica p{
+    font-size: 1.9rem;
+    color: #FFFDEA;
+}
+#relevo a{
+    color: #FFFDEA;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+#politica a{
+    color: #FFFDEA;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+#clima a{
+    color: #FFFDEA;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+#MAPAS{
+    background-color: #FFFDEA;
+    font-size:xx-large;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    size: 100px;
+
+}
+
+
 #SAIBAMAIS{
     background-color: #FFFDEA;
 }
-
-
-
 #conjunto {
     display: flex;
     justify-content: center;
