@@ -327,9 +327,7 @@ header nav a:hover{
 }
 
 
-body{
-    background-color: #000
-}
+
 
 .container{
     display:flex;
@@ -357,6 +355,30 @@ body{
 
 #SAIBAMAIS{
     background-color: #FFFDEA;
+    font-size:xx-large;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    scroll-margin-top: 300px;
+}
+
+.titleSAIBA span{
+    width: 100vw;
+    padding: 90vh;
+    text-align: center;
+    font-size: 100px;
+    color:#A57676;
+    font-family: "Instrument Sans", serif;
+
+   
+
+}
+
+.titleSAIBA h2{
+    padding: 10vh;
+    color: #A57676;
+    font-size: 50px;
 }
 #conjunto {
     display: flex;
@@ -364,8 +386,28 @@ body{
     align-items: center;
 }
 
+.botao{
+    display: flex;
+    justify-content: center;
+}
+
+.botao a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 400px;
+    background-color: #A57676;
+    color: aliceblue;
+    font-size: 64px;
+   
+}
+
 footer{
     background-color: #FFFDEA;
     flex: 1;
-    padding: 7vh;
+    padding: 15vh;
+    height: 50px;
+    text-align: center;
+    font-style: italic;
 }
