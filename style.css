@@ -521,6 +521,79 @@ footer{
         align-self: center;
         font-size: 20px;
     }
+}
+@media (max-width:640px){
+    header{
+        display: none;
+    }
+    .titleSOBRE h2{
+        font-size: 1.5rem;
+        padding: 12px;
+    }
+    .titleSOBRE span{
+        font-size: 2rem;
+        padding: 2px;
+    }
+    .titleINTRODUCAO span{
+        font-size: 3rem;
+        padding: 2px;
+    }
+    #total{
+        flex-direction: column;
+    }
+    #info{
+        width: 100%;
+        height: 65%;
+    }
+    #info p{
+        font-size: 20px;
+    }
+    #politicaphoto{
+        width: 70%;
+        height: 70%;
+    }
+    .imgs{
+        display: none;
+    }
+    .titleTEMAS span{
+        font-size: 2rem;
+    }
+    .fotoprincipais{
+        display: none;
+    }
+    .principais{
+        flex-direction: column;
+    }
+    #relevo p{
+        font-size: 11px;
+        padding: 10px;
+    }
+    #clima p{
+        font-size: 12px;
+        padding: 10px;
+    }
+    #politica p{
+        font-size: 12px;
+        padding: 10px;
+    }
+    #relevo a{
+        font-size: 12px;
+    }
+    #politica a{
+        font-size: 12px;
+    }
+    #clima a{
+        font-size: 12px;
+    }
+    #MAPAS{
+        display: none;
+    }
+    .texto p{
+        font-size: 24px;
+        width: 70%;
+    }
+}
+
 
 
 
