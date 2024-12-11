@@ -2,6 +2,7 @@
 
 ![](./img/capa.png)
 
+
 ---
 ## Sobre
 Site do tipo landing page para divulgar o mais novo site interativo sobre a disciplina de Geografia! O objetivo desse projeto é colocar em prática as mudanças de posicionamento e usar o github.
